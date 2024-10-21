@@ -6,6 +6,7 @@ require 'rspec'
 require 'rspec/expectations'
 require_relative 'page.initialize.rb'
 include RSpec::Matchers
+require 'date'
 
 Environment = ENV['URL']
 
